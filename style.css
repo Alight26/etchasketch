@@ -1,0 +1,13 @@
+.container {
+    max-width: 1080px;
+    
+}
+
+
+
+
+/* flexbox stuff */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
