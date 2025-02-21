@@ -1,13 +1,20 @@
 .container {
-    max-width: 1080px;
+    max-width: 900px;
+    max-height: 200px;
+    margin-left: 250px;
     
 }
 
-
+.container > div {
+    
+    padding: 1.35%;
+    margin: 1px;
+}
 
 
 /* flexbox stuff */
 .container {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
